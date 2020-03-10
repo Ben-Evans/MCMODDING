@@ -1,0 +1,21 @@
+//Items
+item.ruby.name=Ruby
+item.obsidian_ingot.name=Obsidian Ingot
+item.sapphire.name=Sapphire
+//Blocks
+tile.ruby_block.name=Block of Ruby
+tile.block_of_obsidian.name= Block of Obsidian
+tile.sapphire_block.name=Block of Sapphire
+
+//Tools
+item.ruby_sword.name=Ruby Sword
+item.ruby_pickaxe.name=Ruby Pickaxe
+item.ruby_axe.name=Ruby Axe
+item.ruby_hoe.name=Ruby Hoe
+item.ruby_shovel.name=Ruby Shovel
+
+item.obsidian_sword.name=Obsidian Sword
+item.obsidian_axe.name=Obsidian Axe
+item.obsidian_pickaxe.name=Obsidian Pickaxe
+item.obsidian_shovel.name=Obsidian Shovel
+item.obsidian_hoe.name=Obsidian Hoe
