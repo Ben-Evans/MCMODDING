@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        " S ", 
+        " S "
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "nm:sapphire"
+        },
+         "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "nm:sapphire_pickaxe",
+        "count": 1
+    }
+}

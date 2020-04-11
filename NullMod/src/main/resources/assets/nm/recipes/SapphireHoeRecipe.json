@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BB ",
+        " S ", 
+        " S "
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "nm:sapphire"
+        },
+         "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "nm:sapphire_hoe",
+        "count": 1
+    }
+}

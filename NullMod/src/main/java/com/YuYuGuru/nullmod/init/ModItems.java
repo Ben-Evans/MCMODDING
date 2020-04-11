@@ -5,14 +5,19 @@ import java.util.List;
 import com.YuYuGuru.nullmod.items.ItemBase;
 import com.YuYuGuru.nullmod.items.tools.ToolAxe;
 import com.YuYuGuru.nullmod.items.tools.ToolAxeO;
+import com.YuYuGuru.nullmod.items.tools.ToolAxeS;
 import com.YuYuGuru.nullmod.items.tools.ToolHoe;
 import com.YuYuGuru.nullmod.items.tools.ToolHoeO;
+import com.YuYuGuru.nullmod.items.tools.ToolHoeS;
 import com.YuYuGuru.nullmod.items.tools.ToolPickaxe;
 import com.YuYuGuru.nullmod.items.tools.ToolPickaxeO;
+import com.YuYuGuru.nullmod.items.tools.ToolPickaxeS;
 import com.YuYuGuru.nullmod.items.tools.ToolSpade;
 import com.YuYuGuru.nullmod.items.tools.ToolSpadeO;
+import com.YuYuGuru.nullmod.items.tools.ToolSpadeS;
 import com.YuYuGuru.nullmod.items.tools.ToolSword;
 import com.YuYuGuru.nullmod.items.tools.ToolSwordO;
+import com.YuYuGuru.nullmod.items.tools.ToolSwordS;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
@@ -29,6 +34,7 @@ public class ModItems {
     //materials
 	public static final ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 250, 8.0F, 3.0F, 10);
 	public static final ToolMaterial MATERIAL_OBSIDIAN_INGOT= EnumHelper.addToolMaterial("material_obsidian_ingot", 3, 1561, 8.0F, 3.0F, 10);
+	public static final ToolMaterial MATERIAL_SAPPHRE =EnumHelper.addToolMaterial("material_sapphire",3, 100, 7.0F, 3.0F, 10 );
 	
 	
 	//items-Matierals
@@ -49,4 +55,11 @@ public class ModItems {
 	public static final ItemHoe OBSIDIAN_HOE = new ToolHoeO("obsidian_hoe", MATERIAL_OBSIDIAN_INGOT);
 	public static final ItemSword OBSIDIAN_SWORD = new ToolSwordO("obsidian_sword", MATERIAL_OBSIDIAN_INGOT);
 	public static final ItemPickaxe OBSIDIAN_PICKAXE = new ToolPickaxeO("obsidian_pickaxe", MATERIAL_OBSIDIAN_INGOT);
+		//Sapphire
+	public static final ItemAxe SAPPHIRE_AXE = new ToolAxeS("sapphire_axe", MATERIAL_SAPPHRE);
+	public static final ItemSpade SAPPHIRE_SHOVEL = new ToolSpadeS("sapphire_shovel", MATERIAL_SAPPHRE);
+	public static final ItemHoe SAPPHIRE_HOE = new ToolHoeS("sapphire_hoe", MATERIAL_SAPPHRE);
+	public static final ItemSword SAPPHIRE_SWORD = new ToolSwordS("sapphire_sword", MATERIAL_SAPPHRE);
+	public static final ItemPickaxe SAPPHIRE_PICKAXE = new ToolPickaxeS("sapphire_pickaxe", MATERIAL_SAPPHRE);
+	
 }
