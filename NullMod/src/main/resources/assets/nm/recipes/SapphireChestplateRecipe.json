@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "S S",
+        "SSS",
+        "SSS"
+        
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "nm:sapphire"
+        }
+
+    },
+    
+    "result":
+    {
+        "item": "nm:sapphire_chestplate",
+        "count": 1
+    }
+}

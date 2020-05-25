@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "RSR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "minecraft:gold_ingot"
+        },
+         "S":
+        {
+            "item": "minecraft:melon"
+        }
+    },
+    
+    "result":
+    {
+        "item": "nm:golden_melon",
+        "count": 1
+    }
+}

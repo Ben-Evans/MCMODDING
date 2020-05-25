@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "RSR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "minecraft:diamond"
+        },
+         "S":
+        {
+            "item": "minecraft:melon"
+        }
+    },
+    
+    "result":
+    {
+        "item": "nm:diamond_melon",
+        "count": 1
+    }
+}
