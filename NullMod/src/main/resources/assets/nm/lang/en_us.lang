@@ -2,10 +2,13 @@
 item.ruby.name=Ruby
 item.obsidian_ingot.name=Obsidian Ingot
 item.sapphire.name=Sapphire
+
 //Blocks
 tile.ruby_block.name=Block of Ruby
 tile.block_of_obsidian.name= Block of Obsidian
 tile.sapphire_block.name=Block of Sapphire
+tile.ruby_ore.name=Ruby Ore
+tile.sapphire_ore.name=Sapphire Ore
 
 //Tools
 item.ruby_sword.name=Ruby Sword
@@ -25,3 +28,19 @@ item.sapphire_sword.name= Sapphire Sword
 item.sapphire_pickaxe.name=Sapphire Pickaxe
 item.sapphire_shovel.name=Sapphire Shovel
 item.sapphire_hoe.name=Sapphire Hoe
+
+//Armor
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chestplate.name= Ruby Chestplate
+item.ruby_leggings.name=Ruby Leggings
+item.ruby_boots.name=Ruby Boots
+item.sapphire_helmet.name=Sapphire Helmet
+item.sapphire_chestplate.name=Sapphire Chestplate
+item.sapphire_leggings.name=Sapphire Leggings
+item.sapphire_boots.name=Sapphire Boots
+
+//Food
+item.diamond_carrot.name= Diamond Carrot 
+item.diamond_apple.name= Diamond Apple
+item.golden_melon.name=Golden Melon
+item.diamond_melon.name=Diamond Melon
