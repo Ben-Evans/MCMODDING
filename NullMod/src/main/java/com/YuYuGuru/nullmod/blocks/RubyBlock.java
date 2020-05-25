@@ -11,7 +11,7 @@ public class RubyBlock extends BlockBase {
 		setSoundType(SoundType.METAL);
 		setHardness(5.0F);
 		setResistance(30.0F);
-		setHarvestLevel("pickaxe", 2);
+		setHarvestLevel("pickaxe", 3);
 		setLightLevel(2.0F);
 		//setLightOpacity(1); // int type 1 lets all light pass through
 		//setBlockUnbreakable();
