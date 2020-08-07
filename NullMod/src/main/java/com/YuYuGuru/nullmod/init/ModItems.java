@@ -87,7 +87,7 @@ public class ModItems {
 	
 		//Food
 			//Diamond Food
-	//public static final Item DIAMOND_CARROT = new FoodBase("diamond_carrot", 16, 6.2f, false );
+	
 	public static final Item DIAMOND_CARROT = new FoodEffectBase("diamond_carrot", 16, 6.2f, false, new PotionEffect(MobEffects.SPEED, 5*(60*20), 100, false, true), new PotionEffect(MobEffects.JUMP_BOOST, 5*(60*20), 300, false, true));
 	public static final Item DIAMOND_APPLE = new FoodEffectBase("diamond_apple", 16, 6.2f, false, new PotionEffect(MobEffects.REGENERATION, 20*(60*20), 20, false, true), new PotionEffect(MobEffects.HEALTH_BOOST, 5*(60*20), 300, false, true));
 	public static final Item DIAMOND_MELON = new FoodEffectBase("diamond_melon", 16, 6.2f, false, new PotionEffect(MobEffects.WATER_BREATHING, 5*(60*20), 20, false, true), new PotionEffect(MobEffects.HEALTH_BOOST, 5*(60*20), 300, false, true));
@@ -95,7 +95,11 @@ public class ModItems {
 		//Golden Food
 	public static final Item GOLDEN_MELON = new FoodEffectBase("golden_melon", 8, 4.2f, false, new PotionEffect(MobEffects.REGENERATION, 2*(60*20), 5, false, true), new PotionEffect(MobEffects.REGENERATION,0, 0, false, true));
 	public static final Item GOLDEN_POTATO= new FoodEffectBase("golden_potato", 8, 4.2f, false, new PotionEffect(MobEffects.SATURATION, 2*(60*20), 5, false, true), new PotionEffect(MobEffects.SATURATION,0, 0, false, true));
+	public static final Item GOLDEN_COOKIE = new FoodEffectBase("golden_cookie", 8, 4.2f, false, new PotionEffect(MobEffects.STRENGTH, 2*(60*20), 5, false, true), new PotionEffect(MobEffects.STRENGTH,0, 0, false, true));
 			//Sapphire Food
+	public static final Item SAPPHIRE_MELON = new FoodEffectBase("sapphire_melon", 8, 4.2f, false, new PotionEffect(MobEffects.REGENERATION, 2*(60*20), 5, false, true), new PotionEffect(MobEffects.REGENERATION,0, 0, false, true));
+	public static final Item SAPPHIRE_COOKIE = new FoodEffectBase("sapphire_coookie", 8, 4.2f, false, new PotionEffect(MobEffects.STRENGTH, 2*(60*20), 5, false, true), new PotionEffect(MobEffects.REGENERATION,0, 0, false, true));
+	public static final Item SAPPHIRE_POTATO = new FoodEffectBase("sapphire_potato", 8, 4.2f, false, new PotionEffect(MobEffects.SATURATION, 2*(60*20), 5, false, true), new PotionEffect(MobEffects.REGENERATION,0, 0, false, true));
 			//Ruby Food 
 			
 }
