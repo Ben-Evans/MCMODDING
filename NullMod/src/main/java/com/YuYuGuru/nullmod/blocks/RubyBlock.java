@@ -12,8 +12,8 @@ public class RubyBlock extends BlockBase {
 		setHardness(5.0F);
 		setResistance(30.0F);
 		setHarvestLevel("pickaxe", 3);
-		setLightLevel(2.0F);
-		//setLightOpacity(1); // int type 1 lets all light pass through
+		setLightLevel(15.0F*100);
+		setLightOpacity(10); // int type 1 lets all light pass through
 		//setBlockUnbreakable();
 	}
 
